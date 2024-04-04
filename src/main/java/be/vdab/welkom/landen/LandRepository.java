@@ -10,9 +10,9 @@ import java.util.List;
 @Component
 public class LandRepository {
 
-    public LandRepository() {
-        System.out.println("LandRepository constructor");
-    }
+//    public LandRepository() {
+//        System.out.println("LandRepository constructor");
+//    }
 
     public List<Land> findAll() {
         try (var stream = Files.lines(Path.of("/data/landen.csv"))) {
