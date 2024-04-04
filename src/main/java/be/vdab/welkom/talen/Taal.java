@@ -12,7 +12,6 @@ public class Taal {
     public String getCode() {
         return code;
     }
-
     public String getNaam() {
         return naam;
     }
