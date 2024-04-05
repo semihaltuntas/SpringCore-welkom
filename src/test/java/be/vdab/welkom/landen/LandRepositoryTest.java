@@ -34,7 +34,7 @@ public class LandRepositoryTest {
     }
 
     @Test
-    void ehetEersteLandBevatDeDataUitDeEersteRegel() throws IOException {
+    void hetEersteLandBevatDeDataUitDeEersteRegel() throws IOException {
         try (var stream = Files.lines(Path.of(pad))) {
             stream.findFirst().ifPresent(eersteRegel -> {
                 var eersteLand = landRepository.findAll().get(0);
